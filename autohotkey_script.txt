@@ -1,0 +1,1 @@
+#IfWinActive, ahk_class PlayerClient LWin::Alt ^Space::^L !Space::!L +Space::+L #IfWinActive
