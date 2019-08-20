@@ -26,6 +26,7 @@ class SwitchKeys(QObject):
     def _turnOn(self):
         # turn on
         self.status = "turning on"
+        print(self.status)
         cmd = self.bin_folder + "\\WinKill.exe"
         os.system(cmd)
         self.status = "turned on"
